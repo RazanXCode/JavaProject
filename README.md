@@ -39,7 +39,7 @@ Suggests a restocking strategy.
 Represents a product with attributes such as productId, name, price, stockLevel, and reorderThreshold.
 
 ## Languages and Technologies Used:
-Java abd
+Java and
 Multithreading
 
 ## How to Contribute:
