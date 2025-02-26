@@ -13,6 +13,7 @@ public class StockPredictor {
         return (int) Math.ceil(product.getStockLevel() / averageDailySales);
     }
 
+
     // Method to suggest a restocking strategy
     public String suggestRestockStrategy() {
         int daysLeft = daysUntilStockRunsOut();
