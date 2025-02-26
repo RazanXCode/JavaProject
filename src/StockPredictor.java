@@ -10,18 +10,18 @@ public class StockPredictor {
 
     // Method to predict when stock will run out
     public int daysUntilStockRunsOut() {
-        return (int) Math.ceil(product.getStockLevel() / averageDailySales);
+        return (int) (product.getStockLevel() / averageDailySales);
     }
 
     // Method to suggest a restocking strategy
     public String suggestRestockStrategy() {
         int daysLeft = daysUntilStockRunsOut();
-        if (daysLeft <= 0) {
-            return "High: Plan for restocking later on.";
+        if (daysLeft <= 0) { // if
+            return "High: Plan for restock Now!";
         } else if (daysLeft <= 5) {
             return "Moderate: Consider restocking soon.";
         } else if (daysLeft <= 10) {
-            return "low:Restock immediately to avoid shortages.";
+            return "low:Restock later On.";
         } else {
             return "Sufficient stock available. Monitor usage trends.";
         }
