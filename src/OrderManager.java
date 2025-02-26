@@ -7,6 +7,7 @@ class OrderManager {
     public void processOrder(Order order) {
         executor.submit(() -> {
             try {
+                System.out.println("Hello from main branch!");
                 System.out.println("Hello Customer: " + order.getCustomerName());
                 // change state using setter and sleep
                 System.out.println("Processing order: " + order.getOrderId());
