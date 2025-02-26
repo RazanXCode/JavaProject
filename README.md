@@ -45,8 +45,8 @@ Multithreading
 ## How to Contribute:
 I welcome contributions! Follow these steps to contribute:
 
-Fork the repository
-Create a new branch (feature-branch or fix-issue)
-Commit your changes (git commit -m "Added new feature XYZ")
-Push the changes (git push origin feature-branch)
-Create a Pull Request on GitHub
+1. Fork the repository
+2. Create a new branch (feature-branch or fix-issue)
+3. Commit your changes (git commit -m "Added new feature XYZ")
+4. Push the changes (git push origin feature-branch)
+5. Create a Pull Request on GitHub
