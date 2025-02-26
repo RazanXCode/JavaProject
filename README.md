@@ -37,3 +37,16 @@ Suggests a restocking strategy.
 4. Product.java
 
 Represents a product with attributes such as productId, name, price, stockLevel, and reorderThreshold.
+
+## Languages and Technologies Used:
+Java abd
+Multithreading
+
+## How to Contribute:
+I welcome contributions! Follow these steps to contribute:
+
+Fork the repository
+Create a new branch (feature-branch or fix-issue)
+Commit your changes (git commit -m "Added new feature XYZ")
+Push the changes (git push origin feature-branch)
+Create a Pull Request on GitHub
